@@ -29,7 +29,7 @@ function setup() {
 
   engine = Engine.create();
   world = engine.world;
-
+Engine.run(engine);
   ground01 = new Ground(1500 / 2, 700, width, 50);
   ground1 = new Ground(775, 600, 400, 50);
   ground2 = new Ground(1175, 300, 400, 50);
