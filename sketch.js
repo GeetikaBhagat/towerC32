@@ -96,7 +96,7 @@ function draw() {
   }
 
   rectMode(CENTER);
-  
+
   ground01.display();
   ground1.display();
   ground2.display();
@@ -193,9 +193,9 @@ function draw() {
 
 }
 function mouseDragged() {
-  if (gameState !== "end") {
+  //if (gameState !== "end") {
     Matter.Body.setPosition(this.ball, { x: mouseX, y: mouseY });
-  }
+ // }
 }
 function mouseReleased() {
   constraint.fly();
